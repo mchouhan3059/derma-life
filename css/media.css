@@ -1,0 +1,104 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .menu {
+        display: none;
+    }
+
+    .inner_Nav {
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .one_inne {
+        flex-direction: column;
+    }
+
+    .one h1 {
+        font-size: 60px;
+    }
+
+    .two_inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cont_two h2 {
+        font-size: 25px;
+    }
+
+    .cont_two h5 {
+        font-size: 18px;
+    }
+
+    .inner_three {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .gallery ul {
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 0px 2px 10px 0px;
+    }
+
+    .gallery ul li {
+        margin-bottom: 10px;
+    }
+
+    .gallery_heading>ul>li:hover::before {
+        width: 100%;
+    }
+
+    .gallery_img {
+        column-count: 1;
+        padding: 20px;
+    }
+
+    .gallery h2,
+    .review>h2,
+    .Services>h2,
+    .results>h2,
+    .caseStudies>h2,
+    .chooseUs>h2,
+    .location>h2,
+    .appointment>h2 {
+        font-size: 30px;
+    }
+
+    .review_Inner {
+        flex-direction: column;
+    }
+
+    .review_Content {
+        margin: 20px;
+    }
+
+    .service_Inner {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .inner_Results,
+    .chooseUs,
+    .location_Left,
+    .inner_Location,
+    .inner_us,
+    .inner_appointment {
+        padding: 20px;
+    }
+    .inner_Studies{
+        justify-content: center;
+    }
+    .inner_us,
+    .inner_Location{
+        flex-direction: column;
+    }
+    .us_cont{
+        margin-top: 10px;
+    }
+    .location_Left h2{
+        font-size: 20px;
+    }
+    .location_Left iframe{
+        width: 100%;
+    }
+}
